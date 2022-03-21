@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_client", "test_client\test_client.vcproj", "{599B6429-5C5C-4354-B6E1-1070AF294933}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3248695D-7B07-4798-AD48-4E4D270FB1BD} = {3248695D-7B07-4798-AD48-4E4D270FB1BD}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MicroServices", "MicroServices\microservices.vcproj", "{3248695D-7B07-4798-AD48-4E4D270FB1BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{599B6429-5C5C-4354-B6E1-1070AF294933}.Debug|Win32.ActiveCfg = Debug|Win32
+		{599B6429-5C5C-4354-B6E1-1070AF294933}.Debug|Win32.Build.0 = Debug|Win32
+		{599B6429-5C5C-4354-B6E1-1070AF294933}.Release|Win32.ActiveCfg = Release|Win32
+		{599B6429-5C5C-4354-B6E1-1070AF294933}.Release|Win32.Build.0 = Release|Win32
+		{3248695D-7B07-4798-AD48-4E4D270FB1BD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3248695D-7B07-4798-AD48-4E4D270FB1BD}.Debug|Win32.Build.0 = Debug|Win32
+		{3248695D-7B07-4798-AD48-4E4D270FB1BD}.Release|Win32.ActiveCfg = Release|Win32
+		{3248695D-7B07-4798-AD48-4E4D270FB1BD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="client_session">
+      <UniqueIdentifier>{d812af26-4905-4ddd-8141-e72e6e4c4f11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test_case">
+      <UniqueIdentifier>{0f69c441-fdc3-40ea-ad3d-a3f0cf7268b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="interface">
+      <UniqueIdentifier>{c68a9619-c421-443f-b621-9d9c378abadb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="client_manager.cpp">
+      <Filter>client_session</Filter>
+    </ClCompile>
+    <ClCompile Include="virtual_client.cpp">
+      <Filter>client_session</Filter>
+    </ClCompile>
+    <ClCompile Include="test_anothor.cpp">
+      <Filter>test_case</Filter>
+    </ClCompile>
+    <ClCompile Include="test_arena.cpp">
+      <Filter>test_case</Filter>
+    </ClCompile>
+    <ClCompile Include="test_beside_battle.cpp">
+      <Filter>test_case</Filter>
+    </ClCompile>
+    <ClCompile Include="http_accessor_hot.cpp">
+      <Filter>interface</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_client_hot.cpp">
+      <Filter>interface</Filter>
+    </ClCompile>
+    <ClCompile Include="tcp_server_hot.cpp">
+      <Filter>interface</Filter>
+    </ClCompile>
+    <ClCompile Include="console_poller.cpp" />
+    <ClCompile Include="test_client.cpp" />
+    <ClCompile Include="util.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="client_manager.h">
+      <Filter>client_session</Filter>
+    </ClInclude>
+    <ClInclude Include="virtual_client.h">
+      <Filter>client_session</Filter>
+    </ClInclude>
+    <ClInclude Include="test_anothor.h">
+      <Filter>test_case</Filter>
+    </ClInclude>
+    <ClInclude Include="test_arena.h">
+      <Filter>test_case</Filter>
+    </ClInclude>
+    <ClInclude Include="test_beside_battle.h">
+      <Filter>test_case</Filter>
+    </ClInclude>
+    <ClInclude Include="http_accessor_hot.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp_client_hot.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="tcp_server_hot.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="console_poller.h" />
+    <ClInclude Include="util.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\bin\test_client.xml" />
+  </ItemGroup>
+</Project>
